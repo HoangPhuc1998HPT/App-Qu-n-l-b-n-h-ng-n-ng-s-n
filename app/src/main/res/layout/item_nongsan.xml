@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textViewIdNongSan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ID Nông Sản"
+        android:textSize="18sp"
+        android:padding="4dp"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/textViewTenNongSan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Tên Nông Sản"
+        android:textSize="18sp"
+        android:padding="4dp"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/textViewDVT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ĐVT"
+        android:textSize="18sp"
+        android:padding="4dp"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/textViewGia"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Giá"
+        android:textSize="18sp"
+        android:padding="4dp"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/textViewSLTonKho"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="SL Tồn Kho"
+        android:textSize="18sp"
+        android:padding="4dp"
+        android:gravity="center_vertical" />
+
+</LinearLayout>
